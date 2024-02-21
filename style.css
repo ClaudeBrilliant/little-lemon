@@ -1,10 +1,12 @@
 body{
-    background-color: rgb(255, 255, 252);
     margin-left: 5%;
     margin-right: 5%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: 3rem;
     margin-bottom: 3rem;
+    background-image: url("https://www.pexels.com/photo/blue-fabric-4-piece-sofa-set-under-lighted-hanging-bulbs-974382/");
+    background-size: cover;
+    background-position: center;
 
 }
 
@@ -22,9 +24,11 @@ nav ul {
   border-radius: 20px;
 }
 a {
-    color: #1706b4;
+    color: white;
     text-decoration: underline;
     font-weight: bold;
+    gap: 4px;
+    text-decoration: none;
 }
 
 a:hover {
@@ -34,7 +38,9 @@ nav li{
    display: inline-block;
    text-align: center;
    padding-top: 15px;
+   margin-right: 15px;
    list-style: none;
+   ga
 
 }
 section {
@@ -51,7 +57,7 @@ article{
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: rgb(255, 203, 46);
+    background-color: transparent;
     box-sizing: border-box;
 }
 article > img {
