@@ -40,12 +40,22 @@ nav li{
    padding-top: 15px;
    margin-right: 15px;
    list-style: none;
-   ga
 
 }
-section {
+.home{
+    display: block;
+}
+.min-container{
+    text-align: center;
+}
+#about-Us{
+    display: block;
+}
+.about{
+    text-align: center;
+}
+.article-container{
     display: flex;
-    
 }
 
 article{
@@ -100,6 +110,7 @@ article > button:hover {
     color: rgb(252, 249, 249);
 }
 
+
 video {
     position: relative;
     overflow: hidden;
@@ -109,6 +120,13 @@ video {
     height: 50vh;
     object-fit: cover; /* Ensures the video covers the entire container */
     z-index: -1; /* Moves the video behind other content */
+}
+.contact-container{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    li
 }
 
 .footer {
